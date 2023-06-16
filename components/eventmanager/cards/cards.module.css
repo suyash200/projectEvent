@@ -1,0 +1,15 @@
+.mainContainer {
+  height: 175px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 25px;
+  padding: 15px;
+  box-shadow: var(--dropShadow-1);
+  background: var(--purple-2);
+  margin: auto;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

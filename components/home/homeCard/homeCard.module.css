@@ -1,0 +1,34 @@
+.cardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+.contentDiv {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100px;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+.imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 780px) {
+  .cardContainer {
+    flex-direction: column;
+  }
+  .imgDiv {
+    height: 100;
+    width: 50px;
+    display: none;
+  }
+}
